@@ -6,7 +6,10 @@
   "author": "Harry Manchanda <IamManchanda>",
   "license": "MIT",
   "scripts": {
-    "dev": "parcel src/index.html"
+    "dev": "parcel src/index.html",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage"
   },
   "devDependencies": {
     "babel-core": "^6.26.3",
@@ -19,7 +22,8 @@
     "eslint-plugin-import": "2.14.0",
     "eslint-plugin-jsx-a11y": "6.1.1",
     "eslint-plugin-react": "7.11.0",
-    "parcel-bundler": "^1.9.7"
+    "parcel-bundler": "^1.9.7",
+    "react-test-renderer": "^16.4.2"
   },
   "dependencies": {
     "@reach/router": "^1.1.1",
